@@ -1,10 +1,7 @@
 var a = 10;
 
 var b =20;
-var c =0
-c=a
-a=b
-b=c 
+[a,b]=[b,a]
 
 console.log ("New value of a:", a);
 console.log ("New value of b:", b);
